@@ -8,7 +8,7 @@ st.title("Mihiro-4o - The Slow")
 
 # パラメータ調整用のexpanderを追加
 with st.expander("パラメータ設定"):
-    temperature = st.slider("Temperature", min_value=0.0, max_value=2.0, value=0.0, step=0.1)
+    temperature = st.slider("Temperature", min_value=0.0, max_value=2.0, value=0.0, step=0.2)
     top_p = st.slider("Top P", min_value=0.0, max_value=1.0, value=0.0, step=0.1)
     max_tokens = st.slider("Max Tokens", min_value=16, max_value=2048, value=1024, step=16)
 
