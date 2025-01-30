@@ -30,3 +30,6 @@ if st.button("送信"):
 
     # 回答を表示（最新のアクセス方法）
     st.write(response.choices[0].message.content)
+    
+    # 使用トークン数を表示
+    st.write(f"使用トークン数: {response.usage.total_tokens}")
