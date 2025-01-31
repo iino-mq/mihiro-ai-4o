@@ -20,7 +20,7 @@ if st.button("送信"):
     response = openai.chat.completions.create(
         model="ft:gpt-4o-2024-08-06:teammq::AvE9EYCy",
         messages=[
-            {"role": "system", "content": "あなたはミヒロさんです。必ず200文字以上で答えてください。"},
+            {"role": "system", "content": "あなたはマツダミヒロです。必ず200文字以上で答えてください。"},
             {"role": "user", "content": user_input}
         ],
         temperature=temperature,  # Temperatureパラメータを追加
